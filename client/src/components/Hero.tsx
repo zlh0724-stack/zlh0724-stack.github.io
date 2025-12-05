@@ -1,7 +1,7 @@
 import { Gamepad2, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import avatarImage from "@assets/generated_images/Anime_gamer_avatar_a4762245.png";
+import avatarImage from "@assets/Anime_gamer_avatar_a4762245.png";
 
 export default function Hero() {
   return (

@@ -2,11 +2,11 @@ import Navigation from "@/components/Navigation";
 import VideoCard from "@/components/VideoCard";
 import Footer from "@/components/Footer";
 import { Video } from "lucide-react";
-import landscapeImage from "@assets/generated_images/Anime_landscape_artwork_1_b0658bd3.png";
-import characterImage from "@assets/generated_images/Anime_character_artwork_2_162e081b.png";
-import cityscapeImage from "@assets/generated_images/Anime_cityscape_artwork_3_2b059dfb.png";
-import foodImage from "@assets/generated_images/Anime_food_artwork_4_1dc632f0.png";
-import cherryImage from "@assets/generated_images/Cherry_blossom_artwork_5_9395ba60.png";
+import landscapeImage from "@assets/Anime_landscape_artwork_1_b0658bd3.png";
+import characterImage from "@assets/Anime_character_artwork_2_162e081b.png";
+import cityscapeImage from "@assets/Anime_cityscape_artwork_3_2b059dfb.png";
+import foodImage from "@assets/Anime_food_artwork_4_1dc632f0.png";
+import cherryImage from "@assets/Cherry_blossom_artwork_5_9395ba60.png";
 
 export default function Videos() {
   const videos = [

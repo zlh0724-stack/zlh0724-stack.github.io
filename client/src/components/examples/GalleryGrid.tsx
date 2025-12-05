@@ -1,7 +1,7 @@
 import GalleryGrid from '../GalleryGrid'
-import image1 from '@assets/generated_images/Anime_landscape_artwork_1_b0658bd3.png'
-import image2 from '@assets/generated_images/Anime_character_artwork_2_162e081b.png'
-import image3 from '@assets/generated_images/Anime_cityscape_artwork_3_2b059dfb.png'
+import image1 from '@assets/Anime_landscape_artwork_1_b0658bd3.png'
+import image2 from '@assets/Anime_character_artwork_2_162e081b.png'
+import image3 from '@assets/Anime_cityscape_artwork_3_2b059dfb.png'
 
 export default function GalleryGridExample() {
   const images = [

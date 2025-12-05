@@ -1,5 +1,5 @@
 import VideoCard from '../VideoCard'
-import thumbnail from '@assets/generated_images/Anime_cityscape_artwork_3_2b059dfb.png'
+import thumbnail from '@assets/Anime_cityscape_artwork_3_2b059dfb.png'
 
 export default function VideoCardExample() {
   return (

@@ -1,5 +1,5 @@
 import DiaryCard from '../DiaryCard'
-import landscapeImage from '@assets/generated_images/Anime_landscape_artwork_1_b0658bd3.png'
+import landscapeImage from '@assets/Anime_landscape_artwork_1_b0658bd3.png'
 
 export default function DiaryCardExample() {
   return (
