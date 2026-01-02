@@ -1,0 +1,46 @@
+id: "1"
+title: "JavaScript 異步編程"
+subject: "程式設計"
+date: "2024-11-05"
+preview: "學習了 Promise、async/await 的使用方法，以及如何處理異步操作中的錯誤。這些概念對於開發現代 Web 應用非常重要..."
+color: "primary"
+content: |
+  # JavaScript 異步編程
+
+  學習了 Promise、async/await 的使用方法，以及如何處理異步操作中的錯誤。這些概念對於開發現代 Web 應用非常重要。
+
+  ## Promise
+
+  Promise 是處理異步操作的一種方式：
+
+  ```javascript
+  const promise = new Promise((resolve, reject) => {
+    // 異步操作
+    if (success) {
+      resolve(result);
+    } else {
+      reject(error);
+    }
+  });
+  ```
+
+  ## async/await
+
+  async/await 讓異步程式碼看起來像同步程式碼：
+
+  ```javascript
+  async function fetchData() {
+    try {
+      const response = await fetch('/api/data');
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+  ```
+
+  ## 錯誤處理
+
+  記得要正確處理錯誤，避免程式崩潰。
+

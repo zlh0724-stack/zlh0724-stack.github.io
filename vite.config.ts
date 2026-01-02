@@ -22,8 +22,12 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
-            "@assets": path.resolve(import.meta.dirname, "generated_images"),
+      "@assets": path.resolve(import.meta.dirname, "client", "public", "attached_assets"),
     },
+    dedupe: ["react", "react-dom"],
+  },
+  optimizeDeps: {
+    include: ["react", "react-dom"],
   },
   root: path.resolve(import.meta.dirname, "client"),
   build: {

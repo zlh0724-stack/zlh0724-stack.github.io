@@ -6,6 +6,8 @@ import Diary from "@/pages/Diary";
 import Gallery from "@/pages/Gallery";
 import Notes from "@/pages/Notes";
 import Videos from "@/pages/Videos";
+import DiaryDetail from "@/pages/DiaryDetail";
+import NoteDetail from "@/pages/NoteDetail";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -13,8 +15,10 @@ function Router() {
     <Switch>
       <Route path="/" component={Home} />
       <Route path="/diary" component={Diary} />
+      <Route path="/diary/:slug" component={DiaryDetail} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/notes" component={Notes} />
+      <Route path="/note/:slug" component={NoteDetail} />
       <Route path="/videos" component={Videos} />
       <Route component={NotFound} />
     </Switch>
