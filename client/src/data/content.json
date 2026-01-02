@@ -1,0 +1,86 @@
+{
+  "diaries": [
+    {
+      "id": "1",
+      "title": "今天打了一整天的遊戲",
+      "date": "2024-11-07",
+      "excerpt": "今天嘗試了一款新的 RPG 遊戲，畫面超級精美！故事劇情也很吸引人，讓我一口氣玩了五個小時。主角的技能設計很有趣，戰鬥系統也很流暢...",
+      "image": "/attached_assets/Anime_landscape_artwork_1_b0658bd3.png",
+      "tags": [
+        "遊戲",
+        "RPG",
+        "日常"
+      ],
+      "content": "# 今天打了一整天的遊戲\n\n今天嘗試了一款新的 RPG 遊戲，畫面超級精美！故事劇情也很吸引人，讓我一口氣玩了五個小時。\n\n## 遊戲特色\n\n主角的技能設計很有趣，戰鬥系統也很流暢。遊戲的音樂也很棒，完全沉浸在遊戲世界中。\n\n## 心得\n\n這款遊戲讓我重新愛上了 RPG 類型。雖然花了很多時間，但真的很值得！\n",
+      "slug": "今天打了一整天的遊戲"
+    },
+    {
+      "id": "2",
+      "title": "週末畫圖時光",
+      "date": "2024-11-05",
+      "excerpt": "終於完成了新的角色設計！這次嘗試了不同的配色方案，使用了更鮮豔的顏色。畫畫真的很療癒，可以讓我完全沉浸在創作的世界裡...",
+      "image": "/attached_assets/Anime_character_artwork_2_162e081b.png",
+      "tags": [
+        "繪畫",
+        "創作",
+        "週末"
+      ],
+      "content": "# 週末畫圖時光\n\n終於完成了新的角色設計！這次嘗試了不同的配色方案，使用了更鮮豔的顏色。\n\n## 創作過程\n\n畫畫真的很療癒，可以讓我完全沉浸在創作的世界裡。這次的角色設計：\n\n- 使用了更鮮豔的配色\n- 嘗試了不同的服裝風格\n- 加入了更多細節\n\n## 感想\n\n每次完成一幅作品都很有成就感。希望下次能畫出更好的作品！\n",
+      "slug": "週末畫圖時光"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "title": "JavaScript 異步編程",
+      "subject": "程式設計",
+      "date": "2024-11-05",
+      "preview": "學習了 Promise、async/await 的使用方法，以及如何處理異步操作中的錯誤。這些概念對於開發現代 Web 應用非常重要...",
+      "color": "primary",
+      "content": "# JavaScript 異步編程\n\n學習了 Promise、async/await 的使用方法，以及如何處理異步操作中的錯誤。這些概念對於開發現代 Web 應用非常重要。\n\n## Promise\n\nPromise 是處理異步操作的一種方式：\n\n```javascript\nconst promise = new Promise((resolve, reject) => {\n  // 異步操作\n  if (success) {\n    resolve(result);\n  } else {\n    reject(error);\n  }\n});\n```\n\n## async/await\n\nasync/await 讓異步程式碼看起來像同步程式碼：\n\n```javascript\nasync function fetchData() {\n  try {\n    const response = await fetch('/api/data');\n    const data = await response.json();\n    return data;\n  } catch (error) {\n    console.error('Error:', error);\n  }\n}\n```\n\n## 錯誤處理\n\n記得要正確處理錯誤，避免程式崩潰。\n",
+      "slug": "JavaScript-異步編程"
+    },
+    {
+      "id": "2",
+      "title": "遊戲設計原理",
+      "subject": "遊戲開發",
+      "date": "2024-11-03",
+      "preview": "探討了遊戲的核心機制、玩家動機和獎勵系統的設計。一個好的遊戲需要平衡挑戰性和成就感...",
+      "color": "accent",
+      "content": "# 遊戲設計原理\n\n探討了遊戲的核心機制、玩家動機和獎勵系統的設計。一個好的遊戲需要平衡挑戰性和成就感。\n\n## 核心機制\n\n遊戲的核心機制應該：\n\n1. 簡單易懂\n2. 有深度\n3. 有趣味性\n\n## 玩家動機\n\n玩家玩遊戲的動機包括：\n\n- 成就感\n- 探索慾望\n- 社交需求\n\n## 獎勵系統\n\n好的獎勵系統能夠：\n\n- 激勵玩家持續遊玩\n- 提供即時反饋\n- 創造期待感\n",
+      "slug": "遊戲設計原理"
+    }
+  ],
+  "drawings": [
+    {
+      "id": "1",
+      "src": "/attached_assets/Anime_landscape_artwork_1_b0658bd3.png",
+      "title": "夢幻夕陽",
+      "description": "我最喜歡的風景畫作品"
+    },
+    {
+      "id": "2",
+      "src": "/attached_assets/Anime_character_artwork_2_162e081b.png",
+      "title": "原創角色設計",
+      "description": "為遊戲設計的主角形象"
+    },
+    {
+      "id": "3",
+      "src": "/attached_assets/Anime_cityscape_artwork_3_2b059dfb.png",
+      "title": "賽博城市夜景",
+      "description": "未來都市的想像"
+    },
+    {
+      "id": "4",
+      "src": "/attached_assets/Anime_food_artwork_4_1dc632f0.png",
+      "title": "可愛美食插畫",
+      "description": "萌系風格的食物繪畫"
+    },
+    {
+      "id": "5",
+      "src": "/attached_assets/Cherry_blossom_artwork_5_9395ba60.png",
+      "title": "櫻花之美",
+      "description": "春天的櫻花季節"
+    }
+  ]
+}

@@ -3,19 +3,14 @@ import { useState } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-interface GalleryImage {
-  id: string;
-  src: string;
-  title: string;
-  description?: string;
-}
+import type { Drawing } from "@/types/content";
 
 interface GalleryGridProps {
-  images: GalleryImage[];
+  images: Drawing[];
 }
 
 export default function GalleryGrid({ images }: GalleryGridProps) {
-  const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
+  const [selectedImage, setSelectedImage] = useState<Drawing | null>(null);
 
   return (
     <>
